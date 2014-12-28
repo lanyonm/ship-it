@@ -50,8 +50,8 @@ Or you can clone & copy:
 
 todo
 ----
-[ ] add bzz sound when launch is pressed but the box isn't armed
-[ ] external config script to define pins, wiring, resistors, etc.
-[ ] make install location/prefix configurable
-[ ] make the http request internal to python (instead of making system calls)
-[ ] figure out licensing for sounds
+- [ ] add bzz sound when launch is pressed but the box isn't armed
+- [ ] external config script to define pins, wiring, resistors, etc.
+- [ ] make install location/prefix configurable
+- [ ] make the http request internal to python (instead of making system calls)
+- [ ] figure out licensing for sounds
