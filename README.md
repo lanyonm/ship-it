@@ -2,13 +2,17 @@ ship-it
 -------
 Ship-It is a pysical device (currently a box containing a Raspberry Pi) and software that can be used to trigger events in remote systems.  The current implementation is a python script making curl requests to TeamCity to start deploys.  The software design goals were to use the software packages natively available on the Raspbian OS and to make the installation/setup as simple as possible.
 
-The hardware design is entirely thanks to [@justinisamaker](https://twitter.com/justinisamaker) and the current software is an adaptation of his design [here](https://github.com/justinisamaker/raspberrypi/tree/master/teamcityLaunchButton).
+The hardware design is entirely thanks to [@justinisamaker](https://twitter.com/justinisamaker) and the current software is an adaptation of his design [here](https://github.com/justinisamaker/raspberrypi/tree/master/teamcityLaunchButton).  Many thanks go to Justin for the original creation.
 
 Ship-It has only been tested on a Raspberry Pi, but could conceiveably be adapted for other systems.
 
 hardware configuration
 ----------------------
-I will use [Fritzing](http://fritzing.org/) to create the diagram. TDB...
+I used [Fritzing](http://fritzing.org/) to create the diagram.
+
+![wiring diagram](wiring-diagram.svg)
+
+You can find the `fzz` file in the repo root.  I'll supply a parts list at some point in the future...
 
 main.py
 -------
@@ -51,7 +55,7 @@ Or you can clone & copy:
 todo
 ----
 - [ ] add bzz sound when launch is pressed but the box isn't armed
-- [ ] external config script to define pins, wiring, resistors, etc.
+- [ ] external config file to define pins, wiring, resistors, etc.
 - [ ] make install location/prefix configurable
 - [ ] make the http request internal to python (instead of making system calls)
 - [ ] figure out licensing for sounds
