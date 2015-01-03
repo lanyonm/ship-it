@@ -1,6 +1,6 @@
 ship-it
 -------
-Ship-It is a pysical device (currently a box containing a Raspberry Pi) and software that can be used to trigger events in remote systems.  The current implementation is a python script making curl requests to TeamCity to start deploys.  The software design goals were to use the software packages natively available on the Raspbian OS and to make the installation/setup as simple as possible.
+Ship-It is a physical device (currently a box containing a Raspberry Pi) and software that can be used to trigger events in remote systems.  The current implementation is a python script making curl requests to TeamCity to start deploys.  The software design goals were to use the software packages natively available on the Raspbian OS and to make the installation/setup as simple as possible.
 
 The hardware design is entirely thanks to [@justinisamaker](https://twitter.com/justinisamaker) and the current software is an adaptation of his design [here](https://github.com/justinisamaker/raspberrypi/tree/master/teamcityLaunchButton).  Many thanks go to Justin for the original creation.
 
