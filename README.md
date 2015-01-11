@@ -10,7 +10,7 @@ hardware configuration
 ----------------------
 I used [Fritzing](http://fritzing.org/) to create the diagram.
 
-![wiring diagram](wiring-diagram.svg)
+![wiring diagram](https://cdn.rawgit.com/LanyonM/ship-it/master/wiring-diagram.svg)
 
 You can find the `fzz` file in the repo root.  I'll supply a parts list at some point in the future...
 
