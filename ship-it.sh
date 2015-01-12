@@ -26,7 +26,7 @@ test -f $DAEMON || exit 0
 
 case "$1" in
     start)
-        start-stop-daemon --start --background --name $NAME \
+        start-stop-daemon --start --background \
             --pidfile $PIDFILE --make-pidfile --startas /bin/bash \
             -- -c "exec stdbuf -oL -eL $DAEMON $DAEMONARGS > $LOGFILE 2>&1"
         log_end_msg $?
